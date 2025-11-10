@@ -1,0 +1,28 @@
+.back {
+  background-color: black;
+}
+
+.banner {
+  background-color: aqua;
+  width: 250px;
+  text-align: center;
+  opacity: 1;
+  animation: fadeSlide 1s ease-out
+}
+
+@keyframes fadeSlide {
+  from {
+    transform: translateY(-100);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.banner {
+  background-color: aqua;
+  width: 250px;
+  text-align: center;
+  opacity: 1;
+  animation: fadeSlide 1s ease-out
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Simple Flex Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="bar">
+        <strong>FlexSite</strong>
+        <nav>
+          <ul>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <img src="https://picsum.photos/640/400" alt="Abstract layout art" />
+        <div>
+          <h1>Clean, Flexible Layouts</h1>
+          <p>Simple semantic HTML + flexbox for fast, responsive design.</p>
+        </div>
+      </section>
+
+      <section class="cards" id="work">
+        <div class="card">
+          <h3>Semantic HTML</h3>
+          <p>Use proper tags for structure and accessibility.</p>
+        </div>
+        <div class="card">
+          <h3>Flexbox</h3>
+          <p>Align, space, and wrap items with ease.</p>
+        </div>
+        <div class="card">
+          <h3>Responsive</h3>
+          <p>Layouts adapt smoothly to any screen size.</p>
+        </div>
+      </section>
+
+      <section class="split">
+        <div class="tip">
+          <h2>Tip</h2>
+          <p>Keep your HTML simple and readable.</p>
+        </div>
+        <div class="resources" id="resources">
+          <h2>Resources</h2>
+          <ul>
+            <li><a href="#">HTML Reference</a></li>
+            <li><a href="#">Flexbox Guide</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <small>&copy; 2025 FlexSite</small>
+    </footer>
+  </body>
+</html>
